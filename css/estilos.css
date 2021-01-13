@@ -4,6 +4,9 @@
   height: 100px;
   background: rgba(30, 40, 33, 0.8);
 }
+.header div nav div a img {
+  max-width: 200px;
+}
 
 .seccion1 {
   margin: auto;
