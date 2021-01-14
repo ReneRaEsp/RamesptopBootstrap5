@@ -4,7 +4,7 @@ window.onscroll = function() {
 	if(ubicacionPrincipal >= Desplazamiento){
 		document.getElementById('navbar').style.marginTop = '0px';
 	} else{
-		document.getElementById('navbar').style.marginTop = '-100px';
+		document.getElementById('navbar').style.marginTop = '-250px';
 	}
 	ubicacionPrincipal = Desplazamiento;
 }
