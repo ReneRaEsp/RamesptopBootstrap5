@@ -7,13 +7,24 @@
 .header div {
   margin-top: 0px;
   -webkit-transition: 0.7s;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .header div nav {
-  background: rgba(244, 244, 244, 0.4);
+  background: rgba(35, 45, 105, 0.5);
 }
 .header div nav div a img {
   max-width: 120px;
+}
+.header div nav div div {
+  margin-right: 4rem;
+}
+.header div nav div div a {
+  margin-left: 2rem;
+  background: rgba(244, 244, 244, 0);
+  border-radius: 0.2rem;
+}
+.header div nav div div a:hover {
+  background: rgba(244, 244, 244, 0.1);
 }
 
 .seccion1 {
@@ -74,11 +85,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .body {
   width: auto;
   background: rgba(30, 200, 245, 0.9);
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=estilos.css.map */
