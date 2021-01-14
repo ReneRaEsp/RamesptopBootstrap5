@@ -1,39 +1,66 @@
 .header {
   margin: auto;
   width: 100%;
-  height: 100px;
-  background: rgba(30, 40, 33, 0.8);
+  height: auto;
+  position: fixed;
+}
+.header div {
+  margin-top: 0px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.header div nav {
+  background: rgba(244, 244, 244, 0.4);
 }
 .header div nav div a img {
-  max-width: 200px;
+  max-width: 120px;
 }
 
 .seccion1 {
   margin: auto;
   width: 100%;
-  height: 500px;
-  background: rgba(70, 245, 243, 0.8);
+  height: 700px;
+  background: url("../img/fondo4.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .seccion2 {
   margin: auto;
   width: 100%;
-  height: 400px;
-  background: rgba(130, 120, 233, 0.8);
+  height: 700px;
+  background-color: rgba(130, 120, 233, 0.8);
+  background: url("../img/fondo.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .seccion3 {
   margin: auto;
   width: 100%;
-  height: 500px;
-  background: rgba(230, 140, 233, 0.8);
+  height: 700px;
+  background-color: rgba(230, 140, 233, 0.8);
+  background: url("../img/fondo4.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .seccion4 {
   margin: auto;
   width: 100%;
-  height: 500px;
-  background: rgba(50, 170, 173, 0.8);
+  height: 700px;
+  background-color: rgba(50, 170, 173, 0.8);
+  background: url("../img/fondo.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer {
@@ -46,6 +73,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .body {
