@@ -211,11 +211,12 @@
   background-position: center;
 }
 .seccion4 div .tituloC div .titulo {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .seccion4 div .tituloC div .iconoT {
   font-size: 2rem;
-  color: #E56F38;
+  color: #E84326;
+  margin-top: 0.3rem;
 }
 .seccion4 div .contactoT {
   width: 340px;
@@ -245,7 +246,7 @@
 }
 .seccion4 div .contactoT2 {
   width: 620px;
-  height: 270px;
+  height: 210px;
   margin-top: 20rem;
   display: flex;
   justify-content: center;
@@ -286,8 +287,12 @@
 .footer {
   margin: auto;
   width: 100%;
-  height: 100px;
-  background: rgba(30, 40, 33, 0.8);
+  height: 100%;
+  padding: 3rem;
+  background: rgba(1, 5, 4, 0.85);
+}
+.footer div div .logoF {
+  height: auto;
 }
 
 * {
