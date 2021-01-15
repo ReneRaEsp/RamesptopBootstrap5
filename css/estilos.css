@@ -1,7 +1,7 @@
 .header {
   margin: auto;
   width: 100%;
-  height: auto;
+  max-height: 100px;
   position: fixed;
   z-index: 5;
 }
@@ -13,8 +13,26 @@
 .header div nav {
   background: rgba(2, 75, 105, 0.5);
 }
-.header div nav div a img {
-  max-width: 120px;
+.header div nav div .bord {
+  border: solid 4px rgba(244, 244, 244, 0.9);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 65px;
+  width: 120px;
+  background: rgba(24, 24, 24, 0.12);
+}
+.header div nav div .bord .ram {
+  text-orientation: center;
+  color: rgba(244, 244, 244, 0.9);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.header div nav div .bord .ram .web {
+  color: rgba(182, 192, 182, 0.9);
+}
+.header div nav div .bord .ram .des {
+  color: rgba(70, 180, 255, 0.9);
 }
 .header div nav div div {
   margin-right: 4rem;

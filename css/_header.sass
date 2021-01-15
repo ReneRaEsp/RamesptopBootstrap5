@@ -1,7 +1,7 @@
 .header
 	margin: auto
 	width: 100%
-	height: auto
+	max-height: 100px
 	position: fixed	
 	z-index: 5
 	div
@@ -12,9 +12,23 @@
 			background: rgba(2, 75, 105, .5)
 			//background: rgba(55, 170, 205, .5)
 			div
-				a
-					img
-						max-width: 120px
+				.bord
+					border: solid 4px rgba(244, 244, 244, .9)
+					display: flex
+					align-content: center
+					justify-content: center
+					height: 65px
+					width: 120px
+					background: rgba(24, 24, 24, .12)
+					.ram
+						text-orientation: center
+						color: rgba(244, 244, 244, .9)
+						font-weight: bold
+						font-size: 1rem
+						.web
+							color: rgba(182, 192, 182, .9)
+						.des
+							color: rgba(70, 180, 255, .9)
 				div
 					margin-right: 4rem
 					a
