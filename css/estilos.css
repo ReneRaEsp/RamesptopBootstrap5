@@ -13,6 +13,9 @@
 .header div nav {
   background: rgba(2, 75, 105, 0.5);
 }
+.header div nav div .borde {
+  width: 8.5rem;
+}
 .header div nav div .bord {
   border: solid 4px rgba(244, 244, 244, 0.9);
   display: flex;
