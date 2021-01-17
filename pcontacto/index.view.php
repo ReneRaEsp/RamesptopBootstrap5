@@ -45,28 +45,44 @@
 	
 	 -->
 		<div class="row p-5 seccion1 d-flex justify-content-center flex-wrap flex-row align-content-center">
+			<div class=" d-none d-sm-flex col-12 col-sm-4"></div>
+			<div class="d-flex justify-content-center contTitulo rounded p-2 col-12 col-sm-4 mb-5">	
+				<p class="text-justify-center h3 m-auto">Información y enlaces de contacto</p>
+			</div>
+			<div class=" d-none d-sm-flex col-12 col-sm-4"></div>
 			
-				<div class="m-2 align-self-end col-12 col-sm-2 contactoT contactoT2 rounded d-flex justify-content-around flex-wrap flex-column ">
+			<div class="m-2 col-12 col-sm-3 contactoT contactoT2 rounded d-flex justify-content-around flex-wrap flex-row ">
 					<a class="" href="https://t.me/ramesptop" target="_BLANK">
 						<i class="logoT p-1 contactoI fab fa-telegram"></i>
 						<p cllass="clickT" >Iniciar conversación en telegram</p>	
 					</a>
-					<a class="" href="https://t.me/ramesptop" target="_BLANK">
+					<a class="d-none d-sm-flex flex-column flex-wrap" href="https://t.me/ramesptop" target="_BLANK">
 						<i class="logoT logoForm p-1 contactoI fas fa-file-alt"></i>
 						<p cllass="clickT">Solicitar pagina / formulario de servicio</p>
 					</a>
-				</div>
+			</div>
 
-				<div class="d-none d-sm-flex col-sm-2">
+				<div class="d-none d-sm-flex col-12 col-sm-2">
 					
 				</div>
 			
-				<div class="m-2 inside col-12 col-sm-5 rounded d-flex justify-content-center bg-white">
-				
+				<div class="m-2 p-2 inside col-12 col-sm-4 rounded d-flex justify-content-between flex-wrap flex-column ">
+					<div class="contactoC d-flex justify-content-center">
+						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p><i class="pt-4 correo contactoI fas fa-envelope"></i>
+					</div>
+					<div class="contactoC d-flex justify-content-center">
+						<p class="contacto text-dark p-2">Telefono: +51 941-339-689</p><i class="p-2 telefono contactoI fas fa-phone-square"></i>
+					</div>
+					<div class="contactoC d-flex justify-content-center">
+						<p class="contacto text-dark p-2">Telegram: @RamEsptop</p><i class="p-2 telegram contactoI fab fa-telegram"></i>
+					</div>
+					<div class="contactoC d-flex justify-content-center">
+						<p class="contacto text-dark p-2">Signal: +51 941-339-689</p><i class="p-2 signal contactoI far fa-comment"></i>
+					</div>	
 				</div>	
 		</div>
-		<div class="row d-flex justify-content-center">
-			<div class="col-7 bg-light rounded p-5 m-4">
+		<div class="seccion2 row d-flex justify-content-center">
+			<div class="inside col-12 col-sm-7 rounded p-5 m-4">
 				<form class="formulario" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 					<div id="Contacto" class="contactanosA col-12 d-flex justify-content-center">
 						<h2 class="tituloContactanos text-align-center">Email directo</h2>

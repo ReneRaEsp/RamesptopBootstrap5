@@ -48,48 +48,49 @@
   background: rgba(244, 244, 244, 0.1);
 }
 
-.seccion1 {
+.seccion1, .seccion2 {
   height: auto;
 }
-.seccion1 .inside {
-  height: 300px;
+.seccion1 .inside, .seccion2 .inside {
+  height: auto;
+  background: rgba(244, 244, 244, 0.92);
   -webkit-box-shadow: 16px 16px 16px -6px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 16px 16px 16px -6px rgba(0, 0, 0, 0.53);
   box-shadow: 16px 16px 16px -6px rgba(0, 0, 0, 0.53);
 }
-.seccion1 .contactoT {
-  width: 240px;
-  height: 300px;
+.seccion1 .inside .contactoC .contacto, .seccion2 .inside .contactoC .contacto {
+  font-size: 1.4rem;
+}
+.seccion1 .inside .contactoC .contactoI, .seccion2 .inside .contactoC .contactoI {
+  font-size: 2rem;
+}
+.seccion1 .inside .contactoC .signal, .seccion2 .inside .contactoC .signal {
+  color: #8B88D7;
+}
+.seccion1 .inside .contactoC .telegram, .seccion2 .inside .contactoC .telegram {
+  color: #0088cc;
+}
+.seccion1 .inside .contactoC .telefono, .seccion2 .inside .contactoC .telefono {
+  color: #14703F;
+}
+.seccion1 .inside .contactoC .correo, .seccion2 .inside .contactoC .correo {
+  color: #344E64;
+}
+.seccion1 .contactoT, .seccion2 .contactoT {
+  width: 340px;
+  height: 400px;
   background: rgba(222, 221, 213, 0.8);
   -webkit-box-shadow: 15px 12px 16px -6px rgba(0, 0, 0, 0.73);
   -moz-box-shadow: 15px 12px 16px -6px rgba(0, 0, 0, 0.73);
   box-shadow: 15px 12px 16px -6px rgba(0, 0, 0, 0.73);
 }
-.seccion1 .contactoT .contactoC .contacto {
-  font-size: 1.4rem;
-}
-.seccion1 .contactoT .contactoC .contactoI {
-  font-size: 2rem;
-}
-.seccion1 .contactoT .contactoC .signal {
-  color: #8B88D7;
-}
-.seccion1 .contactoT .contactoC .telegram {
-  color: #0088cc;
-}
-.seccion1 .contactoT .contactoC .telefono {
-  color: #14703F;
-}
-.seccion1 .contactoT .contactoC .correo {
-  color: #344E64;
-}
-.seccion1 .contactoT2 {
+.seccion1 .contactoT2, .seccion2 .contactoT2 {
   width: 400px;
   height: 210px;
   display: flex;
   justify-content: center;
 }
-.seccion1 .contactoT2 a {
+.seccion1 .contactoT2 a, .seccion2 .contactoT2 a {
   text-decoration: none;
   color: #0F4066;
   text-align: center;
@@ -102,24 +103,28 @@
   box-shadow: 15px 12px 16px -6px rgba(0, 0, 0, 0.73);
   border-radius: 4px 4px 4px 4px;
 }
-.seccion1 .contactoT2 a:hover {
+.seccion1 .contactoT2 a:hover, .seccion2 .contactoT2 a:hover {
   -webkit-box-shadow: 1px 1px 1px -6px rgba(0, 0, 0, 0.73);
   -moz-box-shadow: 1px 1px 1px -6px rgba(0, 0, 0, 0.73);
   box-shadow: 1px 1px 1px -6px rgba(0, 0, 0, 0.73);
   transform: translate(4px, 4px);
 }
-.seccion1 .contactoT2 a .logoT {
+.seccion1 .contactoT2 a .logoT, .seccion2 .contactoT2 a .logoT {
   color: #0088cc;
   font-size: 3.5rem;
 }
-.seccion1 .contactoT2 a .logoForm {
+.seccion1 .contactoT2 a .logoForm, .seccion2 .contactoT2 a .logoForm {
   color: #7697B0;
 }
-.seccion1 .contactoT2 a .logoCorreo {
+.seccion1 .contactoT2 a .logoCorreo, .seccion2 .contactoT2 a .logoCorreo {
   color: #154150;
 }
-.seccion1 .contactoT2 a .clickT {
+.seccion1 .contactoT2 a .clickT, .seccion2 .contactoT2 a .clickT {
   font-size: 2rem;
+}
+
+.contTitulo {
+  background: rgba(243, 243, 243, 0.9);
 }
 
 .footer {
