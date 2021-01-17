@@ -28,11 +28,11 @@
     					</button>
     				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       					<div class="navbar-nav d-flex justify-content-between">
-        					<a class=" nav-link text-white font-weight-bold active text-center" aria-current="page" href="index.html"><span class="p-2 h5">Inicio</span> <i class="fas fa-house-user"></i></a>
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="#"><span class="p-2 h5">Contacto</span> <i class="fas fa-address-book"></i></a>
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="#"><span class="p-2 h5">Portfolio</span> <i class="fas fa-suitcase"></i></a>
+        					<a class=" nav-link text-white font-weight-bold active text-center" aria-current="page" href="../index.html"><span class="p-2 h5">Inicio</span> <i class="fas fa-house-user"></i></a>
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="index.php"><span class="p-2 h5">Contacto</span> <i class="fas fa-address-book"></i></a>
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="#"dashboard/><span class="p-2 h5">Portfolio</span> <i class="fas fa-suitcase"></i></a>
     	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="#"><span class="p-2 h5">Tecnologias</span> <i class="fas fa-microchip"></i></a>
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="https://blog.ramesptop.com"><span class="p-2 h5">Blog</span> <i class="fas fa-blog"></i></a>
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" target="_BLANK" href="https://blog.ramesptop.com"><span class="p-2 h5">Blog</span> <i class="fas fa-blog"></i></a>
  		     			</div>
    		 			</div>
  		 		</div>
@@ -56,10 +56,10 @@
 						<i class="logoT p-1 contactoI fab fa-telegram"></i>
 						<p cllass="clickT" >Iniciar conversación en telegram</p>	
 					</a>
-					<a class="d-none d-sm-flex flex-column flex-wrap" href="https://t.me/ramesptop" target="_BLANK">
+					<!--<a class="d-none d-sm-flex flex-column flex-wrap" href="https://t.me/ramesptop" target="_BLANK">
 						<i class="logoT logoForm p-1 contactoI fas fa-file-alt"></i>
 						<p cllass="clickT">Solicitar pagina / formulario de servicio</p>
-					</a>
+					</a>-->
 			</div>
 
 				<div class="d-none d-sm-flex col-12 col-sm-2">
