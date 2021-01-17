@@ -66,7 +66,7 @@
 					
 				</div>
 			
-				<div class="m-2 p-2 inside col-12 col-sm-4 rounded d-flex justify-content-between flex-wrap flex-column ">
+				<div class="m-2 p-2 inside col-12 col-md-4 rounded d-flex justify-content-between flex-wrap flex-column ">
 					<div class="contactoC d-flex justify-content-center">
 						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p><i class="pt-4 correo contactoI fas fa-envelope"></i>
 					</div>
