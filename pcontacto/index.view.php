@@ -51,7 +51,7 @@
 			</div>
 			<div class=" d-none d-sm-flex col-12 col-sm-4"></div>
 			
-			<div class="m-2 col-12 col-sm-3 contactoT contactoT2 rounded d-flex justify-content-around flex-wrap flex-row ">
+			<div class="m-2 col-12 col-sm-2 contactoT contactoT2 rounded d-flex justify-content-around flex-wrap flex-row ">
 					<a class="" href="https://t.me/ramesptop" target="_BLANK">
 						<i class="logoT p-1 contactoI fab fa-telegram"></i>
 						<p cllass="clickT" >Iniciar conversación en telegram</p>	
