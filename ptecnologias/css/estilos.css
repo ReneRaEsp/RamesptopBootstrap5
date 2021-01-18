@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Sarabun", Helvetica;
+}
+
+.body {
+  width: auto;
+  background: rgba(30, 200, 245, 0.9);
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=estilos.css.map */
