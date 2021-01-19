@@ -1,0 +1,26 @@
+.seccion1 .galeria {
+	display: grid;
+	grid-gap: .5rem;
+	width: 100%;
+	height: auto;
+	grid-template-areas: "uno  uno  uno    dos    dos    seis" 
+						 "uno  uno  uno    dos    dos    seis"
+						 "uno  uno  uno    dos    dos    siete" 
+						 "tres tres cuatro cuatro cuatro ocho"
+						 "tres tres cuatro cuatro cuatro ocho";
+	grid-template-rows: repeat(5, 170px);
+	grid-template-columns: repeat(5, 170px) 1fr;
+
+}
+.seccion1 .galeria .uno {  grid-area: uno;}
+.seccion1 .galeria .dos {  grid-area: dos; }
+.seccion1 .galeria .tres {  grid-area: tres; }
+.seccion1 .galeria .cuatro {  grid-area: cuatro; }
+.seccion1 .galeria .cinco {  grid-area: cinco; }
+.seccion1 .galeria .seis {  grid-area: seis; }
+.seccion1 .galeria .siete {  grid-area: siete; }
+.seccion1 .galeria .ocho {  grid-area: ocho; }
+.seccion1 .galeria .nueve {  grid-area: nueve; }
+.seccion1 .galeria .diez {  grid-area: diez; }
+.seccion1 .galeria .once {  grid-area: once; }
+.seccion1 .galeria .doce {  grid-area: doce; }
