@@ -9,6 +9,7 @@
 	<script src="https://kit.fontawesome.com/31c64c925d.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sarabun:wght@500&family=Yusei+Magic&display=swap" rel="stylesheet">
+	<link  rel="icon"   href="../img/favicon.ico" />
 </head>
 <body>
 	<section class="body">
