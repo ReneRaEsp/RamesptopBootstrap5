@@ -45,8 +45,8 @@
 	Comienzo seccion1
 	
 	 -->
-		<div class="row p-5 seccion1 d-flex justify-content-center">
-			<div class="inside col-3 rounded d-flex justify-content-center bg-white p-4">
+		<div class="row p-1 p-sm-5 seccion1 d-flex justify-content-center">
+			<div class="inside col-12 col-sm-3 rounded d-flex justify-content-center bg-white p-4">
 				<form class="formulario" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 					<div id="Contacto" class="contactanosA col-12 d-flex justify-content-center">
 						<h2 class="tituloContactanos text-align-center">Contacto</h2>

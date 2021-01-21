@@ -67,18 +67,22 @@
 					
 				</div>
 			
-				<div class="m-2 p-2 inside col-12 col-md-4 rounded d-flex justify-content-between flex-wrap flex-column ">
+				<div class="m-1 p-1 m-sm-2 p-sm-2 inside col-12 col-md-4 rounded d-flex justify-content-between flex-wrap flex-column ">
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p><i class="pt-4 correo contactoI fas fa-envelope"></i>
+						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p>
+						<i class="pt-4 correo contactoI fas fa-envelope"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Telefono: +51 941-339-689</p><i class="p-2 telefono contactoI fas fa-phone-square"></i>
+						<p class="contacto text-dark p-2">Telefono: +51 941-339-689</p>
+						<i class="p-2 telefono contactoI fas fa-phone-square"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Telegram: @RamEsptop</p><i class="p-2 telegram contactoI fab fa-telegram"></i>
+						<p class="contacto text-dark p-2">Telegram: @RamEsptop</p>
+						<i class="p-2 telegram contactoI fab fa-telegram"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Signal: +51 941-339-689</p><i class="p-2 signal contactoI far fa-comment"></i>
+						<p class="contacto text-dark p-2">Signal: +51 941-339-689</p>
+						<i class="p-2 signal contactoI far fa-comment"></i>
 					</div>	
 				</div>	
 		</div>

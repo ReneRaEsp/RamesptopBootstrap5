@@ -1,7 +1,7 @@
 .header {
   margin: auto;
   width: 100%;
-  max-height: 100px;
+  height: auto;
   z-index: 5;
 }
 .header div {
@@ -36,11 +36,7 @@
 .header div nav div .bord .ram .des {
   color: rgba(70, 180, 255, 0.9);
 }
-.header div nav div div {
-  margin-right: 4rem;
-}
 .header div nav div div a {
-  margin-left: 2rem;
   background: rgba(244, 244, 244, 0);
   border-radius: 0.2rem;
 }
@@ -130,13 +126,15 @@
   box-shadow: 12px 12px 12px -6px rgba(0, 0, 0, 0.43);
 }
 
-@media screen and (max-width: 500px) {
-  .contacto {
-    font-size: 0.7rem;
+@media screen and (max-width: 400px) {
+  .seccion1 .inside .contactoC {
+    font-size: 14px;
   }
-
-  .contactoI {
-    font-size: 1.4rem;
+  .seccion1 .inside .contactoC .contacto {
+    font-size: 14px;
+  }
+  .seccion1 .inside .contactoC .contactoI {
+    font-size: 14px;
   }
 }
 .footer {
