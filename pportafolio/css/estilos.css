@@ -4,13 +4,14 @@
   height: auto;
   position: fixed;
   z-index: 5;
-  background: rgba(2, 75, 105, 0.5);
+  background: rgba(2, 75, 105, 0.99);
 }
 .header div {
   margin-top: 0px;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
+
 .seccion1 {
   height: auto;
   width: auto;
@@ -149,6 +150,8 @@
   width: auto;
   background: url("../../img/fondo2.jpg");
   overflow: hidden;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 @media screen and (max-width: 400px) {
