@@ -119,6 +119,17 @@
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
 }
+.seccion1 .galeria .nueve {
+  background: url("../../img/nueve.png");
+  background-size: 400px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.seccion1 .galeria .nueve:hover {
+  -web-kit-transform: scale(1.3);
+  transform: scale(1.3);
+}
 
 .seccion2 {
   height: 700px;
